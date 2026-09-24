@@ -4,6 +4,9 @@ Site web personnel conçu dans le cadre de ma candidature pour le stage **"Déve
 
 **Lien du site :** https://site-presentation-ag.pages.dev/
 
+> **Notes d'affichage :**
+> - Le site s'adapte automatiquement au thème de votre navigateur web (le thème clair est conseillé pour une lecture optimale).
+> - Les animations au défilement reposent sur la spécification moderne *CSS Scroll-driven Animations* (support natif optimal sur Chrome, Edge et navigateurs Chromium).
 ---
 
 ## Contexte du projet
