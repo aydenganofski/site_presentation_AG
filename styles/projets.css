@@ -1,0 +1,76 @@
+  /* Hero */
+.hero .imgblock {
+  min-height: 420px;
+  padding: 44px;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero .imgblock::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("../images/site_web.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  z-index: 1;
+}
+
+.hero h1 {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 4.5rem;
+  margin: 0;
+  font-weight: 800;
+  text-shadow: 
+    2px 0 #310c7b, -2px 0 #310c7b, 0 2px #310c7b, 0 -2px #310c7b,
+    1px 1px #310c7b, -1px -1px #310c7b, 1px -1px #310c7b, -1px 1px #310c7b;
+}
+
+
+  .split .img-trattoria {
+  background-image: url("../images/tratoria.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 320px;
+}
+
+.split .img-sokoban {
+  background-image: url("../images/sokoban.webp");
+  background-color: var(--surface);
+  background-size: cover;
+  background-position: center;
+  min-height: 320px;
+}
+
+.split .img-app {
+  background-image: url("../images/tournois_esport_app.webp");
+  background-color: var(--surface);
+  background-size: cover;
+  background-position: top;
+  min-height: 320px;
+}
+
+.split .img-mariage {
+  background-image: url("../images/site_mariage.gif");
+  background-color: var(--surface);
+  background-size: cover;
+  background-position: top;
+  min-height: 320px;
+}
+
+.split .img-game {
+  background-image: url("../images/game_idle.gif");
+  background-color: var(--surface);
+  background-size: cover;
+  background-position: top;
+  min-height: 320px;
+}
