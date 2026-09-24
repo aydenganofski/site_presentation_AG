@@ -1,35 +1,6 @@
-  /* Hero */
-.hero .imgblock {
-  min-height: 420px;
-  padding: 44px;
-  position: relative;
-  overflow: hidden;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .hero .imgblock::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("../images/fond_nuage.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/fond_nuage.webp");
   opacity: 0.66;
-  z-index: 1;
-}
-
-.hero h1 {
-  position: relative;
-  z-index: 2;
-  color: #fff;
-  font-size: 4.5rem;
-  margin: 0;
-  font-weight: 800;
 }
 
 .contact-centered {
@@ -46,7 +17,7 @@
 
 .contact-intro {
   font-size: 1.05rem;
-  color: #2d3748;
+  color: var(--ink);
   line-height: 1.6;
   margin: 0 auto 2rem;
   text-align: left;
@@ -61,11 +32,11 @@
 }
 
 .contact-card {
-  background: #ffffff;
+  background: var(--surface);
   border-radius: 12px;
   padding: 1.1rem 1.4rem;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
-  border-left: 4px solid #733369;
+  border-left: 4px solid var(--rust);
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
@@ -82,21 +53,16 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 700;
-  color: #718096;
+  color: var(--rust);
 }
 
 .contact-value,
 .contact-links a {
-  color: #1a202c;
+  color: var(--ink);
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
   transition: color 0.2s ease;
-}
-
-.contact-value:hover,
-.contact-links a:hover {
-  color: #733369;
 }
 
 .contact-links {

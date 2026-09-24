@@ -1,3 +1,72 @@
-section {
-    padding : 18px 0 8px;
+.credits-linear-container {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 1rem 0 3rem;
+}
+
+.credit-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-category .pill-title {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  padding: 8px 20px;
+}
+
+.credit-rows {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--line);
+}
+
+.credit-rows li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+  padding: 14px 4px;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.res-label {
+  font-weight: 700;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.res-source {
+  color: var(--ink);
+  text-align: right;
+}
+
+.res-source a {
+  color: var(--link);
+  text-decoration: underline;
+  transition: opacity 0.2s ease;
+}
+
+.res-source a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 680px) {
+  .credit-rows li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 12px 0;
+  }
+
+  .res-source {
+    text-align: left;
+    font-size: 0.9rem;
+  }
 }
