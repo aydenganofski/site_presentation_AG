@@ -47,3 +47,11 @@
   background-position: center;
   min-height: 320px;
 }
+
+.split .img-ia {
+  background-image: url("../images/computer.webp");
+  background-color: var(--surface);
+  background-size: cover;
+  background-position: center;
+  min-height: 320px;
+}
