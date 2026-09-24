@@ -15,11 +15,11 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../images/site_web.webp");
+  background-image: url("../images/fond_fleur_projets.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 1;
+  opacity: 0.8;
   z-index: 1;
 }
 
