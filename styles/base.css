@@ -121,23 +121,6 @@
     color:rgba(255,255,255,0.75);
   }
 
-  /* Hero */
-.hero .imgblock {
-  background-image: url("../images/plage_roche_noir.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 420px;
-  padding: 44px;
-  position: relative;
-
-  /* Centrage parfait du titre */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .hero h1 {
   color: #fff;
   font-size: 4.5rem;
@@ -226,25 +209,16 @@
     max-width:62ch;
   }
 
+  .project-date {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin: 3px 0 3px 0;
+  font-weight: 500;
+}
+
   @media (max-width:760px){
     .split{ grid-template-columns:1fr; }
   }
-
-  /* Images d'illustration des blocs split */
-.split .img-iut {
-  background-image: url("../images/iut.webp");
-  background-size: cover;
-  background-position: center;
-  min-height: 320px;
-}
-
-.split .img-hobbies {
-  background-image: url("../images/concert.webp");
-  background-color: var(--surface);
-  background-size: cover;
-  background-position: center;
-  min-height: 320px;
-}
 
 /* ---------- Parcours / Timeline ---------- */
 .card-timeline {
